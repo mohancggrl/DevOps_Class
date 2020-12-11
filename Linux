@@ -1,0 +1,35 @@
+
+192.168.137.131
+
+
+To Login linux machines
+========================
+
+ssh <username>@<IP>
+
+
+ssh -i <private_key> <user_name>@<IP>
+
+PWD  ---> Present working directory
+ifconfig  ---> to check ip address of linux
+ipconfig  ----> to check ip address for windows
+su root   ------> to switch root user_name
+su <user_name> -------> to switch users
+cd ..  ----> one step back
+cd -     -----> previos directory
+ls -----> list of the dirctory
+ls -ltra   
+	---> l is a long list
+	---> t is a time
+	---> r is a reverse 
+	---> a is a hidden files
+touch <file_name>   ---> to create empty file.
+cat <file_name>   ----> To view file
+cat > <file_name>   ----> To create content file   and ovoride
+cat >> <file_name>   ----> to append content in the file
+rm ---> to remove file
+   -f <file__name> --> remove forcefully
+mkdir <directory1_name> ----> to create dirctory
+rm -rf <dirctory_name> -----> To remove dirctory  
+cp <source/<file_name>> <dest> ---> To copy files
+mv <file_name/dirctory_name>  -----> to move file/dirctory
