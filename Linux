@@ -1,5 +1,5 @@
 
-192.168.137.131
+	192.168.137.131
 
 
 To Login linux machines
@@ -33,3 +33,94 @@ mkdir <directory1_name> ----> to create dirctory
 rm -rf <dirctory_name> -----> To remove dirctory  
 cp <source/<file_name>> <dest> ---> To copy files
 mv <file_name/dirctory_name>  -----> to move file/dirctory
+useradd <user_name>   ------> to add user_name
+userdel <user_name>   -----> To delete user
+groupadd <group_name>  -----> To create group_name
+groupdel <group_name>  -----> To delete group
+
+
+
+file/dirctory permissions
+
+
+-           rwx    r-x    r--             root   root     file1
+file/di    user   group   others         user   group   
+-rwxr-xr--
+
+chmod    4+2+1 4+0+1 4+0+0 file1
+
+chmod -r
+
+- file
+r---> read    ----> 4
+w ---> write  -----> 2
+x --> exicution ----> 1
+
+
+chown 700 <file_name>     ------> To change owner permissions for file
+chown -R <permissions>  <dirctory_name>   ------> To change owner permissions for Directory
+
+
+To change Hostname
+vi /etc/hostname
+	<hostname>
+:wq
+
+vi /etc/hosts
+	append (<ip> <hostname>)
+:wq
+
+hostname -F /etc/hostname    ---> To forcefully change hostname
+
+hostname ----> to check host name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[harikrishna123@localhost ~]$
+
+/home/harikrishna123
+
+
+
+[root@localhost harikrishna123]#
+
+
+
+
+
+
+
+
+
+
+
+/     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
