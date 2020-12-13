@@ -16,8 +16,8 @@ ipconfig  ----> to check ip address for windows
 su root   ------> to switch root user_name
 su <user_name> -------> to switch users
 cd ..  ----> one step back
-cd -     -----> previos directory
-ls -----> list of the dirctory
+cd -     -----> previous directory
+ls -----> list of the directory
 ls -ltra   
 	---> l is a long list
 	---> t is a time
@@ -25,14 +25,14 @@ ls -ltra
 	---> a is a hidden files
 touch <file_name>   ---> to create empty file.
 cat <file_name>   ----> To view file
-cat > <file_name>   ----> To create content file   and ovoride
+cat > <file_name>   ----> To create content file   and overide
 cat >> <file_name>   ----> to append content in the file
 rm ---> to remove file
    -f <file__name> --> remove forcefully
-mkdir <directory1_name> ----> to create dirctory
-rm -rf <dirctory_name> -----> To remove dirctory  
+mkdir <directory1_name> ----> to create directory
+rm -rf <directory_name> -----> To remove directory  
 cp <source/<file_name>> <dest> ---> To copy files
-mv <file_name/dirctory_name>  -----> to move file/dirctory
+mv <file_name/directory_name>  -----> to move file/directory
 useradd <user_name>   ------> to add user_name
 userdel <user_name>   -----> To delete user
 groupadd <group_name>  -----> To create group_name
@@ -40,7 +40,7 @@ groupdel <group_name>  -----> To delete group
 
 
 
-file/dirctory permissions
+file/directory permissions
 
 
 -           rwx    r-x    r--             root   root     file1
@@ -58,7 +58,7 @@ x --> exicution ----> 1
 
 
 chown 700 <file_name>     ------> To change owner permissions for file
-chown -R <permissions>  <dirctory_name>   ------> To change owner permissions for Directory
+chown -R <permissions>  <directory_name>   ------> To change owner permissions for Directory
 
 
 To change Hostname
